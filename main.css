@@ -1,0 +1,422 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ ul {
+    list-style: none;
+}
+
+
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+
+
+/* //////////////////////////// */
+
+body {
+    background: url('images/aasim_nakhtare.jpg') no-repeat;
+    color: #fff;
+    font-family: sans-serif;
+    background-color: #eaeaea;
+}
+
+.wrapper {
+    max-width: 970px;
+    margin:0 auto;
+    padding: 0 10px;
+}
+
+.container {
+    width: 100%;
+    background:rgba(23, 20, 20, 0.58);
+}
+
+h1,h2,h3 { 
+    text-transform: uppercase;
+}
+
+h1 a, 
+.logo,
+.logo-name,
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+a.active {
+    color: #ffc106;
+    border: 1px solid #ffc106
+}
+
+.menu li a:hover { color: #FFC106;}
+
+.logo {
+    border: 7px solid #00a78e;
+    padding: 14px 14px;
+    font-size: 36px;
+}
+.logo-name{
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+.logo-wrapper { float: left;}
+
+.acolor {
+    color: #FFC107;
+}
+.menu {float: right;}
+
+.menu ul { padding-top: 30px;}
+
+nav {padding: 2em 0;}
+
+
+.home, .bio-data {
+    background: rgba(23, 20, 20, 0.58);
+    margin-top: 4em;
+}
+
+.prof-image,
+.info {
+    display: inline-block;
+    padding: 2em 0;
+    box-sizing: border-box
+
+}
+
+.prof-image > div {position: relative;}
+.overlay{
+    background:rgba(255, 193, 6, 0.45);
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.prof-image {
+    width: 40%;
+    position: relative;
+    float: left;
+    padding-left: 2em;
+    line-height: 0;
+}
+
+.info {
+    width:57%;
+    float: right;
+    padding-right: 2em;
+}
+
+.hi {
+    font-size: 1.2em;
+    color: #FFF;
+    background: #00a78e;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hi:before {
+        width: 0;
+        height: 0;
+        position: absolute;
+        content: '';
+        bottom: -9px;
+        left: 12px;
+        border-style: solid;
+        border-width: 14px 11px 0 12px;
+        border-color: #00a78e transparent transparent transparent;
+}
+
+.home h2 {
+    font-size: 1em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    }
+
+    .info-content {
+        margin-top: 2em;
+        border-top: 1px solid #AFAFAF;
+        padding-top: 0.5em;
+    }
+
+    .info-content li ul li {
+        display: inline-block;
+        font-size: 1em;
+        color: #fff;
+        margin-top: 1em;
+        font-weight: 400;
+        width: 70%;
+    }
+
+    .info-list li:nth-child(1) {
+        font-weight: bold;
+        width: 26%;
+        float: left;
+    }
+
+    /* bio data page start*/
+    .bio-data h2{
+        font-size: 2em;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .bio-header div img {
+        width: 200px;
+        border-radius: 100px;
+        display: block;
+    }
+    .bio-header div img~span {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        color: #C7C7C7;
+        font-weight: bold;
+        
+    }
+
+
+    .bio-header > div { display: inline-block}
+    .bio-header {padding: 2em;}
+    .bio-contact {
+        float: right;
+    }
+
+    .bio-contact div span {
+        width:70px;
+        display: inline-block;
+        color: #FFC106;
+    }
+
+    .bio-contact div {padding: 1em 0;}
+    /* bio data page end*/
+
+    footer {
+        padding: 20px;
+        background: rgba(23, 20, 20, 0.58);
+        margin-top: 30PX;
+        font-size: 0.9em;
+        line-height: 1.9em;
+    }  
+    
+    footer a {
+        color:#ffc106;
+        text-decoration: underline;
+        display: inline-block;
+    }
+    footer div { text-align: center}
+
+    @media (max-width:750px){
+        .prof-image {
+            width: 100%;
+            padding: 3em;
+        }
+        .info {
+            width: 100%;
+            padding: 1em;
+        }
+
+        .logo-wrapper, .menu {
+            display: block;
+            float: none;
+        }
+        .home, .bio-data {
+            margin-top: 1em;
+        }
+
+        
+    }
+
+
+    @media (max-width:370px) {
+        .info-content li ul li {
+            width: 65%;
+        }
+
+        .info-list li:nth-child(1) {
+            width: 32%;
+            
+        }
+    }
