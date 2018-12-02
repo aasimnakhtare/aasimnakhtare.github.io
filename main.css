@@ -218,8 +218,11 @@ h1 a,
     padding: 10px;
 }
 
-a.active {
-    color: #ffc106;
+.menu li a:visited {
+    color: #Fff;
+}
+a.active ,a:active {
+    color: #ffc106 !important;
     border: 1px solid #ffc106
 }
 
@@ -359,7 +362,8 @@ nav {padding: 2em 0;}
 
 
     .bio-header > div { display: inline-block}
-    .bio-header {padding: 2em;}
+    
+    .bio-wrapper {padding: 2em;}
     .bio-contact {
         float: right;
     }
@@ -371,6 +375,16 @@ nav {padding: 2em 0;}
     }
 
     .bio-contact div {padding: 1em 0;}
+
+    .objective {
+        padding: 1em 0;
+        border-top: 1px solid #03a78e;
+    }
+    h3 {
+        font-size: 1.5em;
+        padding-bottom: 0.5em;
+        color: #ffc106;
+    }
     /* bio data page end*/
 
     footer {
@@ -398,13 +412,23 @@ nav {padding: 2em 0;}
             padding: 1em;
         }
 
-        .logo-wrapper, .menu {
+        .logo-wrapper, .menu,
+        .bio-contact {
             display: block;
             float: none;
         }
         .home, .bio-data {
             margin-top: 1em;
         }
+
+        .bio-header > div,
+        .bio-header>div img {
+            display: block;
+        }
+
+        .bio-header>div img {margin:auto;}
+
+
 
         
     }
