@@ -479,9 +479,11 @@ nav {padding: 2em 0;}
 
         .bio-header>div img {margin:auto;}
 
-        .bio-wrapper {
+        .bio-wrapper, .photos {
             padding: 2em 1em 0;
         }
+
+        .photos>div {width: 100%;}
 
         
     }
