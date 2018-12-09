@@ -433,7 +433,10 @@ nav {padding: 2em 0;}
             width: 100%;
         }
 
-        .photos div { display: inline-block;}
+        .photos div {
+            display: inline-block;
+            vertical-align: text-top;
+                }
         .col100 { width: 49%;}
         .col50 div, .col50 {width: 49%;}
         
