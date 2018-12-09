@@ -433,6 +433,7 @@ nav {padding: 2em 0;}
             width: 100%;
         }
 
+        .photos {padding-bottom: 2em;}
         .photos div {
             display: inline-block;
             vertical-align: text-top;
@@ -471,7 +472,7 @@ nav {padding: 2em 0;}
             display: block;
             float: none;
         }
-        .home, .bio-data {
+        .home, .bio-data, .gallery-data {
             margin-top: 1em;
         }
 
@@ -489,7 +490,7 @@ nav {padding: 2em 0;}
         .photos>div,
         .col100,
         .col50 {width: 100%;}
-
+        .photos {padding-bottom: 1em;}
         
     }
 
