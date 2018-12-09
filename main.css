@@ -435,7 +435,7 @@ nav {padding: 2em 0;}
 
         .photos div { display: inline-block;}
         .col100 { width: 49%;}
-        .col50 div {width: 49%;}
+        .col50 div, .col50 {width: 49%;}
         
      /* photos page ends */
     footer {
@@ -483,7 +483,9 @@ nav {padding: 2em 0;}
             padding: 2em 1em 0;
         }
 
-        .photos>div {width: 100%;}
+        .photos>div,
+        .col100,
+        .col50 {width: 100%;}
 
         
     }
